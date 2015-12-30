@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBC72E741C31A93A00455410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC72E731C31A93A00455410 /* main.m */; };
+		DBC72E771C31A93A00455410 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC72E761C31A93A00455410 /* AppDelegate.m */; };
+		DBC72E7D1C31A93A00455410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC72E7B1C31A93A00455410 /* Main.storyboard */; };
+		DBC72E7F1C31A93B00455410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC72E7E1C31A93B00455410 /* Assets.xcassets */; };
+		DBC72E821C31A93B00455410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC72E801C31A93B00455410 /* LaunchScreen.storyboard */; };
+		DBC72E8B1C31A9B400455410 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC72E8A1C31A9B400455410 /* RootViewController.m */; };
+		DBDD0E1B1C338EF200D78EBD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDD0E1A1C338EF200D78EBD /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBC72E6F1C31A93A00455410 /* DreamCatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamCatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC72E731C31A93A00455410 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBC72E751C31A93A00455410 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBC72E761C31A93A00455410 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBC72E7C1C31A93A00455410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC72E7E1C31A93B00455410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC72E811C31A93B00455410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC72E831C31A93B00455410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC72E891C31A9B400455410 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		DBC72E8A1C31A9B400455410 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		DBDD0E191C338EF200D78EBD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DBDD0E1A1C338EF200D78EBD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC72E6C1C31A93A00455410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC72E661C31A93900455410 = {
+			isa = PBXGroup;
+			children = (
+				DBC72E711C31A93A00455410 /* DreamCatcher */,
+				DBC72E701C31A93A00455410 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC72E701C31A93A00455410 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC72E6F1C31A93A00455410 /* DreamCatcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC72E711C31A93A00455410 /* DreamCatcher */ = {
+			isa = PBXGroup;
+			children = (
+				DBC72E751C31A93A00455410 /* AppDelegate.h */,
+				DBC72E761C31A93A00455410 /* AppDelegate.m */,
+				DBC72E891C31A9B400455410 /* RootViewController.h */,
+				DBC72E8A1C31A9B400455410 /* RootViewController.m */,
+				DBDD0E191C338EF200D78EBD /* DetailViewController.h */,
+				DBDD0E1A1C338EF200D78EBD /* DetailViewController.m */,
+				DBC72E7B1C31A93A00455410 /* Main.storyboard */,
+				DBC72E7E1C31A93B00455410 /* Assets.xcassets */,
+				DBC72E801C31A93B00455410 /* LaunchScreen.storyboard */,
+				DBC72E831C31A93B00455410 /* Info.plist */,
+				DBC72E721C31A93A00455410 /* Supporting Files */,
+			);
+			path = DreamCatcher;
+			sourceTree = "<group>";
+		};
+		DBC72E721C31A93A00455410 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBC72E731C31A93A00455410 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC72E6E1C31A93A00455410 /* DreamCatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC72E861C31A93B00455410 /* Build configuration list for PBXNativeTarget "DreamCatcher" */;
+			buildPhases = (
+				DBC72E6B1C31A93A00455410 /* Sources */,
+				DBC72E6C1C31A93A00455410 /* Frameworks */,
+				DBC72E6D1C31A93A00455410 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamCatcher;
+			productName = DreamCatcher;
+			productReference = DBC72E6F1C31A93A00455410 /* DreamCatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC72E671C31A93900455410 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yemi Ajibola";
+				TargetAttributes = {
+					DBC72E6E1C31A93A00455410 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DBC72E6A1C31A93A00455410 /* Build configuration list for PBXProject "DreamCatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC72E661C31A93900455410;
+			productRefGroup = DBC72E701C31A93A00455410 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC72E6E1C31A93A00455410 /* DreamCatcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC72E6D1C31A93A00455410 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC72E821C31A93B00455410 /* LaunchScreen.storyboard in Resources */,
+				DBC72E7F1C31A93B00455410 /* Assets.xcassets in Resources */,
+				DBC72E7D1C31A93A00455410 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC72E6B1C31A93A00455410 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC72E771C31A93A00455410 /* AppDelegate.m in Sources */,
+				DBC72E741C31A93A00455410 /* main.m in Sources */,
+				DBC72E8B1C31A9B400455410 /* RootViewController.m in Sources */,
+				DBDD0E1B1C338EF200D78EBD /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBC72E7B1C31A93A00455410 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC72E7C1C31A93A00455410 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC72E801C31A93B00455410 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC72E811C31A93B00455410 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC72E841C31A93B00455410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DBC72E851C31A93B00455410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC72E871C31A93B00455410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamCatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YemiAjibola.DreamCatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DBC72E881C31A93B00455410 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamCatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YemiAjibola.DreamCatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC72E6A1C31A93A00455410 /* Build configuration list for PBXProject "DreamCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC72E841C31A93B00455410 /* Debug */,
+				DBC72E851C31A93B00455410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC72E861C31A93B00455410 /* Build configuration list for PBXNativeTarget "DreamCatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC72E871C31A93B00455410 /* Debug */,
+				DBC72E881C31A93B00455410 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBC72E671C31A93900455410 /* Project object */;
+}
